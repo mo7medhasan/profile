@@ -1,0 +1,172 @@
+.left-about{
+  text-align: center;
+}
+.left-about-text{
+  padding: auto;
+  height: auto;
+  margin: auto;
+  margin-top: 10%;
+  /* border: 1px solid #777; */
+}
+.h1{
+  font-size: 2em;
+  margin: 10px;
+
+}
+.img-about {
+  width: 100%;
+  margin: auto;
+  border-radius: 50%;
+  border: 5px solid #ff9301;
+  overflow: hidden;
+}
+.img-about-content {
+  border-radius: 50%;
+  border: 5px solid #ff9301;
+  width: 100%;
+  margin: auto;
+  transform: scale3d(1.5, 1.5, 1.5);
+}.for-img-about {
+  width: 60%;
+
+  margin: auto;
+  border-radius: 50%;
+  position: relative;
+  /* border: 5px solid #ff9301; */
+}
+.content-about {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}.right-about {
+  width: 95%;
+}span{
+  display: inline-flex;
+
+}.list-about{
+  width: 50%;
+}a{
+  text-decoration: none;
+  color:#333;
+}a:hover{
+  text-decoration: underline;
+  color: #ff9301;
+}
+ul{
+  list-style: none;
+  font-size: 1.2em;
+}
+article{
+  display: flex;
+  
+  color: #333;
+  
+}.fw-span{
+  font-weight: 700;
+  color: black;
+}li{
+  margin:10% 0;
+}
+.fw-5{font-weight: 500;}
+.p-about-text{
+  font-size: medium;
+  margin: 2%;
+  margin-left: 0;
+}
+#facebook{
+    position: absolute;
+    bottom: 15%;
+    overflow: hidden;
+    left: 4%;  
+    color: white;
+    background-color:black ;
+    border-radius: 50%;
+}
+#facebook:hover{
+    transform: scale(2) ;
+    transition: all 2s;
+    opacity: .8;
+}
+#gitHub{
+    position: absolute;
+    bottom: 3%;
+    overflow: hidden;
+    left: 20%;  
+    color: white;
+    background-color:black ;
+    border-radius: 50%;
+}
+#gitHub:hover{
+    transform: scale(2) ;
+    transition: all 2s;
+    opacity: .8;
+}
+#twitter{
+    position: absolute;
+    bottom: -5%;
+    overflow: hidden;
+    left: 45%;  
+    color: white;
+    background-color:black ;
+    border-radius: 50%;
+}
+#twitter:hover{
+    transform: scale(2) ;
+    transition: all 2s;
+    opacity: .8;
+}
+#linkedin{
+  position: absolute;
+  bottom: 0%;
+  overflow: hidden;
+  left: 68%;  
+  color: white;
+  background-color:black ;
+  border-radius: 10%;
+}
+#linkedin:hover{
+  transform: scale(2) ;
+  transition: all 2s;
+  opacity: .8;
+}#google{
+  position: absolute;
+  bottom: 15%;
+  overflow: hidden;
+  left: 85%;  
+  color: white;
+  background-color:black ;
+  border-radius: 50%;
+}
+#google:hover{
+  transform: scale(2) ;
+  transition: all 2s;
+  opacity: .8;
+}
+
+.container{
+  max-width: 80%;
+  margin: auto;
+
+}
+@media only screen and (max-device-width: 500px) {
+.list-about,.content-header1{
+  width: 90%;
+  margin: auto;
+
+  display:block;
+  
+
+}article{
+  flex-wrap: wrap;
+}
+.content-about1 {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+}

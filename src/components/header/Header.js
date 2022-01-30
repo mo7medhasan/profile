@@ -1,14 +1,20 @@
 import React from 'react'
-import ResponsiveAppBar from './header/ResponsiveAppBar'
-import Background from './header/Background'
+import './header/style.css'
 
 import FullWidthGrid from './header/HeaderMain';
+import { styled } from '@mui/material/styles';
 export default function Header() {
-  const ulStyle = {}
+  const ulStyle = { display : "block" ,maxHeight:"100vh",width:"100%"}
   return (
     <header style={ulStyle}>
-       <ResponsiveAppBar/>
-        <Background/>
+      <nav className='navbar'>
+        <div className='navbar-content'>
+          +20 015 5000 3860
+        </div>
+        <div className='navbar-content'>
+          mo7med.hasan5@gmail.com
+        </div>
+      </nav>
         <FullWidthGrid/>
     </header>
   )

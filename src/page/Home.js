@@ -1,10 +1,19 @@
 import React from 'react'
-import Header from '../components/header/Header'
+import Main from '../components/main/Main'
 
+import Sidebar from '../components/siderbar/Sidebar'
+import './style.css'
 export default function Home() {
+ 
+
     return (
         <>
-         <Header/>
+            <aside  className='sidebarStyle'>
+                <Sidebar />
+            </aside>
+             <main  className='mainStyle'>
+                <Main />
+                </main>
         </>
     )
 }

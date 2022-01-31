@@ -14,7 +14,7 @@ export default function BasicCard({ card }) {
     return (
         <Card sx={{ width: "100%", backgroundColor: "#F7F7FF" }}> <Grid container spacing={4} >
             <Grid item sx={12} sm={4} >
-                <div style={{ borderRight: "1px solid #bbb", margin: "20px auto" }}>
+                <div className='styleBorderRight' >
                     <CardHeader title={card.name}
                    
 

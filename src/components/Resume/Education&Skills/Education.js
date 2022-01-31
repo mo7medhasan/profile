@@ -12,12 +12,12 @@ export default function Education() {
 
 
     return (<div>
-        <div className='h1 fw-5 '>
+        <div className='h1 fw-5 move'>
             Education & Skills
         </div>
         <Grid container spacing={4}>
             <Grid item container sx={12} sm={4}  >
-                <div className='education '>
+                <div className='education move'>
                     {Education.map(item =>(
                     <div className='edu' key={item.id}>
                         <div className='time'>
@@ -36,7 +36,7 @@ export default function Education() {
                 </div>
             </Grid>
             <Grid item container sx={12} sm={8} >
-                <Bar/>
+                <Bar />  
 
 
             </Grid>

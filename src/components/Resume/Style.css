@@ -50,12 +50,19 @@ p{
 .skill-bar-in {
     width: 80px;
     position: relative;
-    transition: all .55s ease;
+    transition: all 1s ease;
+
     height: 10px;
     background: #ff9301;
+animation: WidthMove 1s ;
+
 }.bar,.bar div {width: 100%;
 
 }.bar-list{
     width: 90%;
     margin-left:  auto;
-}.skill-wrapper div{margin: 30px auto; }
+}.skill-wrapper div{margin: 30px 0; }
+@keyframes WidthMove{
+    0%{width: 0%;}
+    75%{width: 100%;}
+}

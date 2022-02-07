@@ -16,7 +16,7 @@ export default function Education() {
             Education & Skills
         </div>
         <Grid container spacing={4}>
-            <Grid item container sx={12} sm={4}  >
+            <Grid item container sx={12} md={4}  >
                 <div className='education move'>
                     {Education.map(item =>(
                     <div className='edu' key={item.id}>
@@ -35,7 +35,7 @@ export default function Education() {
                     </div>))}
                 </div>
             </Grid>
-            <Grid item container sx={12} sm={8} >
+            <Grid item container sx={12} md={8} >
                 <Bar />  
 
 

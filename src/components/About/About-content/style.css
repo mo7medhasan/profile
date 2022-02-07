@@ -149,7 +149,7 @@ article{
   margin: auto;
 
 }
-@media only screen and (max-device-width: 500px) {
+@media only screen and (max-width: 750px) {
 .list-about,.content-header1{
   width: 90%;
   margin: auto;

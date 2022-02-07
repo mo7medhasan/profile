@@ -1,0 +1,5 @@
+.img-portfolio{
+    /* width:min-content; */
+    max-height: min-content;
+overflow: hidden;
+}

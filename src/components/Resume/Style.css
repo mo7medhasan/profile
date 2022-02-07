@@ -69,7 +69,7 @@ animation: WidthMove 1s ;
 .styleBorderRight{
     border-right: 1px solid #bbb; margin: 20px auto;
 }
-@media (max-width:500px) {
+@media (max-width:750px) {
     .styleBorderRight{
         border-right: none;}
 }

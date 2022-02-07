@@ -1,5 +1,6 @@
 import React from 'react';
 import ContentPortfolio from './content/ContentPortfolio';
+import './style.css'
 
 export default function Portfolio() {
   return <div style={{backgroundColor:"#F7F7FF"}} >

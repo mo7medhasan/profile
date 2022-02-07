@@ -10,8 +10,8 @@ import mo7med from '../../../assets/mohamed person image png.png'
 export default function FullWidthGrid() {
 
   return (
-    <div  >
-      <Grid container spacing={1}>
+    <div >
+      <Grid container  >
         <Grid  item md={6} xs={12} className='content-header'>
           <div  className="content">
             <div className="left-bg">
@@ -38,7 +38,7 @@ export default function FullWidthGrid() {
                   </ul>
                 </p>
               </div><div className='p-header'>
-              <p className='col '>
+              <p className='col col-text'>
                 I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.
               </p>
               <p className='btn-header '>

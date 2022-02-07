@@ -11,7 +11,7 @@ import Avatar from '@mui/material/Avatar';
 export default function BasicCard({card}) {
 
   return (
-    <Card sx={{ maxWidth: 275 }}>
+    <Card sx={{ maxWidth: '80%' }} className='center'>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: '#ff9301' }} aria-label="recipe">

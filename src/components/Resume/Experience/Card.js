@@ -13,7 +13,7 @@ export default function BasicCard({ card }) {
 
     return (
         <Card sx={{ width: "100%", backgroundColor: "#F7F7FF" }}> <Grid container spacing={4} >
-            <Grid item sx={12} sm={4} >
+            <Grid item sx={12} md={4} >
                 <div className='styleBorderRight' >
                     <CardHeader title={card.name}
                    
@@ -32,7 +32,7 @@ export default function BasicCard({ card }) {
                     </div>
                 </div>
 
-            </Grid> <Grid item sx={12} sm={8}>
+            </Grid> <Grid item sx={12} md={8}>
             <CardHeader title={card.NameCompany}/>
                 <CardContent>
                     {card.text}

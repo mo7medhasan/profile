@@ -1,10 +1,12 @@
 .sidebarStyle{ position: fixed; display: block; height: 100%; width: 80px; Background: #eee;border-right:1px solid #999 }
 .mainStyle{ position: absolute; display: block; left:80px }
 
-@media only screen and (max-device-width: 500px) {
+@media only screen and (max-width: 750px) {
 
     .sidebarStyle{ display: none; }
-    .mainStyle{ display: block; left:0px }
+    .mainStyle{ display: block; left:0px;
+         width: 100%;
+    }
 
     
 }

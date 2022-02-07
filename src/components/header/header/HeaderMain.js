@@ -8,7 +8,7 @@ import mo7med from '../../../assets/mohamed person image png.png'
 
 
 export default function FullWidthGrid() {
-
+const OpenCV= ()=> window.open("https://drive.google.com/file/d/1Nc_3t-svqP36cAXkritzE_sui-z-awTE/view?usp=sharing");
   return (
     <div >
       <Grid container  >
@@ -42,7 +42,7 @@ export default function FullWidthGrid() {
                 I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.
               </p>
               <p className='btn-header '>
-                <button className='btn'>
+                <button className='btn'onClick={OpenCV}>
                   Download CV
                 </button>
               </p>

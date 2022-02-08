@@ -1,4 +1,4 @@
-.sidebarStyle{ position: fixed; display: block; height: 100%; width: 80px; Background: #eee;border-right:1px solid #999 }
+.sidebarStyle{ position: fixed; display: block; height: 100%; width: 80px; Background:#fff ;border-right:1px solid #ddd }
 .mainStyle{ position: absolute; display: block; left:80px }
 
 @media only screen and (max-width: 750px) {

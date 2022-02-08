@@ -29,7 +29,7 @@
     margin: auto;
 }
 
-.itemIcon:hover {
+.borderForIcon:hover .itemIcon,.itemIcon:hover {
     cursor: pointer;
    color: #ff9301;
 }

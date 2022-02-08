@@ -8,6 +8,10 @@ import {
 
 import MapOutlinedIcon from '@mui/icons-material/MapOutlined';
 import DraftsOutlinedIcon from '@mui/icons-material/DraftsOutlined';
+import PhoneIphoneOutlinedIcon from '@mui/icons-material/PhoneIphoneOutlined';
+
+
+
 export default function Contact() {
   
   return (
@@ -29,19 +33,19 @@ export default function Contact() {
                   <span className="media-body">Qena || Nasr City , Egypt</span>
                 </li>
                 <li className="media">
-                  <i className="icon icon-envelope"></i>
+             <a href="mailto:mo7med.hasan5@gmail.com"> <DraftsOutlinedIcon className="icon" />
                   <span className="media-body">
-                    <a href="mailto:mo7med.hasan5@gmail.com">
-                   <DraftsOutlinedIcon className="icon" />
+                   
+                  
                       mo7med.hasan5@gmail.com
-                    </a>
-                  </span>
+                    
+                  </span></a>
                 </li>
-                <li className="media"> 
-                  <i className="icon icon-phone"> </i>
+                <li className="media">    <a href="tel:+201550003860">
+              <PhoneIphoneOutlinedIcon className="icon"/>
                   <span className="media-body">
-                    <a href="tel:+201550003860">+20 155 000 3860 </a>
-                  </span>
+                 +20 155 000 3860 
+                  </span></a>
                 </li>
               </ul>
             </div>

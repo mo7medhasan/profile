@@ -14,6 +14,7 @@ function Main() {
              <Portfolio/>
              <Contact/>
              <Footer/>
+             
         </div>
     )
 }

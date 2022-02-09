@@ -16,9 +16,12 @@ export default function Footer() {
         alignItems="center"
       >
         <Grid item sx={3}>
-          <Grid container sx={12} spacing={1}>
+          <Grid sx={12}  container
+  direction="row"
+  justifyContent="center"
+  alignItems="center" spacing={2} >
             <Grid item sx={2}>
-              {" "}
+              
               <a href="https://web.facebook.com/profile.php?id=100001450424106">
                 <FacebookOutlinedIcon className="Footer-Icons" />
               </a>

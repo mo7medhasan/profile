@@ -18,8 +18,8 @@ export default function ContentPortfolio() {
     <ImageList cols={1} gap={1}>
       <Grid container spacing={4}>
         {itemData.map((item) => (
-          <Grid item container sx={12} sm={6} md={4}>
-            <a href={item.url} className="img-portfolio">
+          <Grid item container sx={12} sm={6} md={4} className="move">
+            <a href={item.url} className="img-portfolio ">
               <ImageListItem key={item.img} className="">
                 <img src={item.img} alt={item.title} loading="lazy" />
                 <ImageListItemBar

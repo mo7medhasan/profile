@@ -4,7 +4,7 @@ import "./style.css";
 
 export default function Portfolio() {
   return (
-    <div style={{ backgroundColor: "#F7F7FF" }}>
+    <div style={{ backgroundColor: "#F7F7FF" }} id="Portfolio">
       <div className="container">
         <div className="h1 fw-5 move">My Portfolio</div>
         <ContentPortfolio />

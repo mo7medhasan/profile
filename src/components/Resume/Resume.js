@@ -3,7 +3,7 @@ import Experience from './Experience/Experience';
 import hr from '../../assets/line zigzag.png'
 import Education from './Education&Skills/Education'
 function Resume() {
-  return (<> <div className='container'>
+  return (<> <div className='container' id='Experience'>
     <Experience /> </div>
     <img src={hr} alt='hr line zigzag png' className='img-hr-line-zigzag' />
       <div className='container'>

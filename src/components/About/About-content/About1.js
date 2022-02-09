@@ -1,5 +1,5 @@
 import React from "react";
-// import  Link  from 'react-router-dom';
+
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TwitterIcon from "@mui/icons-material/Twitter";
@@ -8,7 +8,7 @@ import GoogleIcon from "@mui/icons-material/Google";
 import Grid from "@mui/material/Grid";
 import mo7medAbout from "../../../assets/mo7med about component.png";
 import "./style.css";
-import { Mail } from "@mui/icons-material";
+
 export default function About1() {
   return (
     <div className="content-about">

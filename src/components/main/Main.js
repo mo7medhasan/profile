@@ -7,7 +7,7 @@ import Portfolio from '../Portfolio/Portfolio'
 import Resume from '../Resume/Resume'
 function Main() {
     return (
-        <div>
+        <div id="Top">
              <Header/>
              <About/>
              <Resume/>

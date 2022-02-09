@@ -15,7 +15,7 @@ export default function About2() {
             </div>
             <Grid container spacing={4}>
                 {card.map(item =>{return(
-                    <Grid item sx={12} md={4} key={item.id} className="move " >
+                    <Grid item sx={12} md={4} key={item.id} className="move moveDelay " >
                     <Card  card={item} className="center"/>
                     
                 </Grid>

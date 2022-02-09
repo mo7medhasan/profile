@@ -28,19 +28,3 @@
     text-align: center;
     margin: auto;
 }
-
-.borderForIcon:hover .itemIcon,.itemIcon:hover {
-    cursor: pointer;
-   color: #ff9301;
-}
-
-.borderForIcon {
-    border-bottom: 1px solid #999;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 30% 0;
-}

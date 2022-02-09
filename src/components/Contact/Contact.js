@@ -55,7 +55,7 @@ export default function Contact() {
           <Grid item container sx={12} md={7}>
         
             <h3> Say Something </h3>
-            <form action="https://formsubmit.co/mo7med.hasan5@gmail.com" method="POST"  >
+            <form action="https://formsubmit.co/mo7med.hasan5@gmail.com" method="POST" >
               <Grid container spacing={1}>
                 <Grid xs={12} sm={6} item>
                   <TextField

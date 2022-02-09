@@ -21,6 +21,16 @@
     left: 0px;
     width: 100%;
   }
+  .mob-header{
+    display: block !important;
+  }
+}
+.mob-header {
+  display: none;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 11;
 }
 .toggler-menu {
     width: 60px;
@@ -32,7 +42,7 @@
     border: none;
     cursor: pointer;
     margin-left: auto;
-}.toggler-menu span {
+  }.toggler-menu span {
     position: absolute;
     top: 0;
     left: 0;
@@ -43,7 +53,7 @@
     margin: auto;
     background: #fff;
     color: #fff;
-}
+  }
  .sidebarStyle-active {
     display: block;
     z-index: 9999;
@@ -63,13 +73,6 @@
   justify-content: center;
   align-items: center;
   padding: 30% 0;
-}
-.mob-header {
-  
-  position: fixed;
-  right: 20px;
-  bottom: 20px;
-  z-index: 11;
 }
 .toggler-menu span {
   position: absolute;

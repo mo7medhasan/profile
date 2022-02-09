@@ -6,6 +6,9 @@ function Resume() {
   return (<> <div className='container' id='Experience'>
     <Experience /> </div>
     <img src={hr} alt='hr line zigzag png' className='img-hr-line-zigzag' />
+    <img src={hr} alt='hr line zigzag png' className='img-hr-line-zigzag' />
+    <img src={hr} alt='hr line zigzag png' className='img-hr-line-zigzag' />
+    <img src={hr} alt='hr line zigzag png' className='img-hr-line-zigzag' />
       <div className='container'>
         <Education/>
     </div>

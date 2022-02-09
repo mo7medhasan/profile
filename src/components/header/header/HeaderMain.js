@@ -9,7 +9,10 @@ import mo7med from '../../../assets/mohamed person image png.png'
 
 export default function FullWidthGrid() {
 const OpenCV= ()=> window.open("https://drive.google.com/file/d/1Nc_3t-svqP36cAXkritzE_sui-z-awTE/view?usp=sharing");
-  return (
+const Alt=";image to profile mo7med in header";
+
+
+return (
     <div >
       <Grid container  >
         <Grid  item md={6} xs={12} className='content-header'>
@@ -53,7 +56,7 @@ const OpenCV= ()=> window.open("https://drive.google.com/file/d/1Nc_3t-svqP36cAX
         </Grid>
         <Grid item md={6} xs={12} className='img-profile'>
           <div >
-            <img src={mo7med} alt='image to profile mo7med in header' className='img-profile-content' />
+            <img src={mo7med} alt={Alt} className='img-profile-content' />
           </div>
         </Grid>
 

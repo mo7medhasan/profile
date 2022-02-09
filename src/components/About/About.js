@@ -8,6 +8,10 @@ export default function About() {
         <div style={{backgroundColor:"#F7F7FF",position:"relative"}} id='About'>
             <About1/>
             <img src={hr} alt='hr line zigzag png' className='img-hr-line-zigzag' />
+            <img src={hr} alt='hr line zigzag png' className='img-hr-line-zigzag' />
+            <img src={hr} alt='hr line zigzag png' className='img-hr-line-zigzag' />
+            <img src={hr} alt='hr line zigzag png' className='img-hr-line-zigzag' />
+
             <About2/>
         </div>
     )

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid } from '@mui/material';
-import CardHeader from '@mui/material/CardHeader';
+
 import Bar from './Bar';
 
 export default function Education() {

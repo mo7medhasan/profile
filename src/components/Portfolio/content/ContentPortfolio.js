@@ -5,7 +5,7 @@ import ImageListItem from "@mui/material/ImageListItem";
 import ImageListItemBar from "@mui/material/ImageListItemBar";
 import { Grid } from "@mui/material";
 import IconButton from "@mui/material/IconButton";
-import InfoIcon from "@mui/icons-material/Info";
+
 import ImgPortfolio1 from "../../../assets/projects/tempela-html-css.png";
 import ImgPortfolio2 from "../../../assets/projects/Amazon.png";
 import ImgPortfolio3 from "../../../assets/projects/fast-ecommerce.png";
@@ -18,7 +18,7 @@ export default function ContentPortfolio() {
     <ImageList cols={1} gap={1}>
       <Grid container spacing={4}>
         {itemData.map((item) => (
-          <Grid item container sx={12} sm={6} md={4} className="move">
+          <Grid item container sx={12} sm={6} md={4} className="move" key={Math.random()}>
             <a href={item.url} className="img-portfolio ">
               <ImageListItem key={item.img} className="">
                 <img src={item.img} alt={item.title} loading="lazy" />

@@ -16,7 +16,9 @@ export default function Contact() {
   
   return (
     <div style={{ backgroundColor: "#F7F7FF" }} id="contact">
-  
+   <img src={hr} alt="hr line zigzag png" className="img-hr-line-zigzag" />
+      <img src={hr} alt="hr line zigzag png" className="img-hr-line-zigzag" />
+      <img src={hr} alt="hr line zigzag png" className="img-hr-line-zigzag" />
       <img src={hr} alt="hr line zigzag png" className="img-hr-line-zigzag" />
       <div className="container move">
         <Grid container spacing={4}>
@@ -53,7 +55,7 @@ export default function Contact() {
           <Grid item container sx={12} md={7}>
         
             <h3> Say Something </h3>
-            <form action="https://formsubmit.co/mo7med.hasan5@gmail.com" method="POST"   >
+            <form action="https://formsubmit.co/mo7med.hasan5@gmail.com" method="POST"  >
               <Grid container spacing={1}>
                 <Grid xs={12} sm={6} item>
                   <TextField
@@ -61,7 +63,7 @@ export default function Contact() {
                     placeholder="Enter first name"
                     label="First Name"
                     variant="outlined"
-                    name="name"
+                    name="First Name"
                     fullWidth
                     required
                   />
@@ -71,7 +73,7 @@ export default function Contact() {
                     className="textField"
                     placeholder="Enter last name"
                     label="Last Name"
-                    name="name"
+                    name="Last Name"
                     variant="outlined"
                     fullWidth
                     required

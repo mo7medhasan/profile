@@ -10,17 +10,18 @@ import mo7medAbout from "../../../assets/mo7med about component.png";
 import "./style.css";
 
 export default function About1() {
+  const   Alt="image zoon to profile ";
   return (
     <div className="content-about">
-      <Grid container className="content-about">
+      <Grid container sx={12} className="content-about" >
         <Grid item sx={12} md={5} className="content-about1">
-          <p className="left-about">
+          <div className="left-about move">
             <div className="for-img-about">
               <div className="img-about">
                 <img
                   src={mo7medAbout}
                   className="img-about-content"
-                  alt="image zoon to profile "
+                  alt={Alt}
                 />
               </div>
               <a
@@ -58,10 +59,10 @@ export default function About1() {
               <div className="h1">Mo7med hasan</div>
               <div>Web Developer</div>
             </div>
-          </p>
+          </div>
         </Grid>
         <Grid item sx={12} md={7} className="content-header1">
-          <p className="right-about">
+          <div className="right-about move">
             <div className="h1 fw-5">Biography</div>
             <article className="p-about-text">
               I'm a Freelancer Front-end Developer with over 1 years of
@@ -94,7 +95,7 @@ export default function About1() {
                 </ul>
               </Grid>
             </article>
-          </p>
+          </div>
         </Grid>
       </Grid>
     </div>

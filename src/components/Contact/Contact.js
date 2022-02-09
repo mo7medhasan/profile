@@ -51,73 +51,9 @@ export default function Contact() {
             </div>
           </Grid>
           <Grid item container sx={12} md={7}>
-            <>
-              {" "}
-              {/* <div className="contact-form">
-              <h4> Say Something </h4>
-              <form>
-                <div className="row">
-                  <div className="col-md-6">
-                    <div className="form-group mb-3">
-                      <input
-                        type="text"
-                        className="form-control theme-light"
-                        placeholder="Full name"
-                        name="name"
-                      />
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="form-group mb-3">
-                      <input
-                        type="email"
-                        className="form-control theme-light"
-                        placeholder="Email address"
-                        name="email"
-                      /><FormControl>
-                      <InputLabel htmlFor="my-input">Email address</InputLabel>
-                      <Input id="my-input" aria-describedby="my-helper-text" />
-                      <FormHelperText id="my-helper-text">We'll never share your email.</FormHelperText>
-                    </FormControl>
-                    </div>
-                  </div>
-                  <div className="col-12">
-                    <div className="form-group mb-3">
-                      <input
-                        type="text"
-                        className="form-control theme-light"
-                        placeholder="Subject"
-                        name="subject"
-                      />
-                    </div>
-                  </div>
-                  <div className="col-12">
-                    <div className="form-group mb-3">
-                      <textarea
-                        rows="4"
-                        className="form-control theme-light"
-                        placeholder="Type comment"
-                        name="comment"
-                      ></textarea>
-                    </div>
-                  </div>
-                  <div className="col-12">
-                    <div className="btn-bar">
-                      <button
-                        className="px-btn px-btn-white"
-                        style={{ cursor: " none" }}
-                      >
-                        
-                        Send Message
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div> */}
-            </>
+        
             <h3> Say Something </h3>
-            <form>
+            <form action="https://formsubmit.co/mo7med.hasan5@gmail.com" method="POST"   >
               <Grid container spacing={1}>
                 <Grid xs={12} sm={6} item>
                   <TextField
@@ -125,6 +61,7 @@ export default function Contact() {
                     placeholder="Enter first name"
                     label="First Name"
                     variant="outlined"
+                    name="name"
                     fullWidth
                     required
                   />
@@ -134,6 +71,7 @@ export default function Contact() {
                     className="textField"
                     placeholder="Enter last name"
                     label="Last Name"
+                    name="name"
                     variant="outlined"
                     fullWidth
                     required
@@ -143,6 +81,7 @@ export default function Contact() {
                   <TextField
                     className="textField"
                     type="email"
+                    name="email"
                     placeholder="Enter email"
                     label="Email"
                     variant="outlined"
@@ -154,6 +93,7 @@ export default function Contact() {
                   <TextField
                     className="textField"
                     type="number"
+                    name='phone'
                     placeholder="Enter phone number"
                     label="Phone"
                     variant="outlined"
@@ -165,6 +105,7 @@ export default function Contact() {
                   <TextField
                     className="textField"
                     label="Message"
+                    name="message"
                     multiline
                     rows={4}
                     placeholder="Type your message here"

@@ -54,18 +54,18 @@ self.addEventListener('install', function(event) {
 	if(APP_DIAG){console.log('Service Worker: Installed');}
 });
 
-self.addEventListener('fetch', function(event) {
-	event.respondWith(
-		//Fetch Data from cache if offline
-		caches.match(event.request)
-			.then(function(response) {
-				if (response) {return response;}
-				return fetch(event.request);
-			}
-		)
-	);
-	if(APP_DIAG){console.log('Service Worker: Fetching '+APP_NAME+'-'+APP_VER+' files from Cache');}
-});
+// self.addEventListener('fetch', function(event) {
+// 	event.respondWith(
+// 		//Fetch Data from cache if offline
+// 		caches.match(event.request)
+// 			.then(function(response) {
+// 				if (response) {return response;}
+// 				return fetch(event.request);
+// 			}
+// 		)
+// 	);
+// 	if(APP_DIAG){console.log('Service Worker: Fetching '+APP_NAME+'-'+APP_VER+' files from Cache');}
+// });
 
 self.addEventListener('activate', function(event) {
 	event.waitUntil(self.clients.claim());
@@ -82,3 +82,11 @@ self.addEventListener('activate', function(event) {
 	);
 	if(APP_DIAG){console.log('Service Worker: Activated')}
 });
+
+self.addEventListener('fetch',event =>{
+	    console.log('Fetch intercepted for :' , event.request.url);
+	    event.respondWith(caches.match(event.request)
+	    .then(cashedResponse =>{
+	        return cashedResponse || fetch(event.request);
+	    }))
+	})

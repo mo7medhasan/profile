@@ -10,10 +10,10 @@ import mo7medAbout from "../../../assets/mo7med about component.png";
 import "./style.css";
 
 export default function About1() {
-  const   Alt="image zoon to profile ";
+  const Alt = "image zoon to profile ";
   return (
     <div className="content-about">
-      <Grid container sx={12} className="content-about" >
+      <Grid container  spacing={1} className="content-about">
         <Grid item sx={12} md={5} className="content-about1">
           <div className="left-about move">
             <div className="for-img-about">
@@ -77,22 +77,51 @@ export default function About1() {
               people new Experiences.
             </article>
             <article>
-              <Grid item sx={12} md={5} className="list-about">
-                <ul>
-                  <li><span className="fw-span">Name </span>: <span> Mohamed Hassan</span></li>
-                  <li><span className="fw-span">Birthday</span>: <span> 18th March 1995 </span></li>
-                  <li><span className="fw-span">Age</span>: <span>26 years </span></li>
-                  <li><span className="fw-span">Address</span>: <span>Egypt </span></li>
-                  
-                </ul>
-              </Grid>
-              <Grid item sx={12} md={7} className="list-about">
-                <ul>
-                <li><span className="fw-span">Phone</span>: <span>[+20] 155 000 3860</span></li>
-                  <li><span className="fw-span">Email</span>:<span><a href="mailto:mo7med.hasan5@gmail.com">mo7med.hasan5@gmail.com</a>  </span></li>
-                  <li><span className="fw-span">Freelance</span>: <span>Available </span></li>
-                  <li><span className="fw-span">Full Time </span>: <span>Available  </span></li>
-                </ul>
+              <Grid container  spacing={2}>
+                <Grid item sx={12} md={5} className="list-about">
+                  <ul>
+                    <li>
+                      <span className="fw-span">Name </span>:{" "}
+                      <span> Mohamed Hassan</span>
+                    </li>
+                    <li>
+                      <span className="fw-span">Birthday</span>:{" "}
+                      <span> 18th March 1995 </span>
+                    </li>
+                    <li>
+                      <span className="fw-span">Age</span>:{" "}
+                      <span>26 years </span>
+                    </li>
+                    <li>
+                      <span className="fw-span">Address</span>:{" "}
+                      <span>Egypt </span>
+                    </li>
+                  </ul>
+                </Grid>
+                <Grid item sx={12} md={7} className="list-about">
+                  <ul>
+                    <li>
+                      <span className="fw-span">Phone</span>:{" "}
+                      <span>[+20] 155 000 3860</span>
+                    </li>
+                    <li>
+                      <span className="fw-span">Email</span>:
+                      <span>
+                        <a href="mailto:mo7med.hasan5@gmail.com">
+                          mo7med.hasan5@gmail.com
+                        </a>{" "}
+                      </span>
+                    </li>
+                    <li>
+                      <span className="fw-span">Freelance</span>:{" "}
+                      <span>Available </span>
+                    </li>
+                    <li>
+                      <span className="fw-span">Full Time </span>:{" "}
+                      <span>Available </span>
+                    </li>
+                  </ul>
+                </Grid>
               </Grid>
             </article>
           </div>

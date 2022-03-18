@@ -8,7 +8,7 @@ import mo7med from "../../../assets/mohamed person image png.png";
 export default function FullWidthGrid() {
   const OpenCV = () =>
     window.open(
-      "https://drive.google.com/file/d/1Nc_3t-svqP36cAXkritzE_sui-z-awTE/view?usp=sharing"
+      "https://drive.google.com/file/d/1RupU7CmnkIqdJ9bEne1Xp1YOo0k0aF7c/view?usp=sharing"
     );
   const Alt = ";image to profile mo7med in header";
 

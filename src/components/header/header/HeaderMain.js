@@ -62,7 +62,7 @@ export default function FullWidthGrid() {
         </Grid>
         <Grid item md={6} xs={12} className="img-profile">
           <div>
-            <img src={mo7med} alt={Alt} className="img-profile-content" />
+            <img src={mo7med} alt={Alt} className="img-profile-content" loading="lazy" />
           </div>
         </Grid>
       </Grid>

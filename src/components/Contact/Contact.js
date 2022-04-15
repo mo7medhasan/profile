@@ -16,10 +16,10 @@ export default function Contact() {
   
   return (
     <div style={{ backgroundColor: "#F7F7FF" }} id="contact">
-   <img src={hr} alt="hr line zigzag png" className="img-hr-line-zigzag" />
-      <img src={hr} alt="hr line zigzag png" className="img-hr-line-zigzag" />
-      <img src={hr} alt="hr line zigzag png" className="img-hr-line-zigzag" />
-      <img src={hr} alt="hr line zigzag png" className="img-hr-line-zigzag" />
+   <img src={hr} alt="hr line zigzag png" className="img-hr-line-zigzag" loading="lazy"/>
+      <img src={hr} alt="hr line zigzag png" className="img-hr-line-zigzag" loading="lazy"/>
+      <img src={hr} alt="hr line zigzag png" className="img-hr-line-zigzag" loading="lazy"/>
+      <img src={hr} alt="hr line zigzag png" className="img-hr-line-zigzag" loading="lazy"/>
       <div className="container move">
         <Grid container spacing={4}>
           <Grid item container sx={12} md={5}>

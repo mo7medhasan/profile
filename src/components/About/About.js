@@ -7,10 +7,10 @@ export default function About() {
     return (
         <div style={{backgroundColor:"#F7F7FF",position:"relative"}} id='About'>
             <About1/>
-            <img src={hr} alt='hr line zigzag png' className='img-hr-line-zigzag' />
-            <img src={hr} alt='hr line zigzag png' className='img-hr-line-zigzag' />
-            <img src={hr} alt='hr line zigzag png' className='img-hr-line-zigzag' />
-            <img src={hr} alt='hr line zigzag png' className='img-hr-line-zigzag' />
+            <img src={hr} alt='hr line zigzag png' className='img-hr-line-zigzag'loading="lazy" />
+            <img src={hr} alt='hr line zigzag png' className='img-hr-line-zigzag'loading="lazy" />
+            <img src={hr} alt='hr line zigzag png' className='img-hr-line-zigzag'loading="lazy" />
+            <img src={hr} alt='hr line zigzag png' className='img-hr-line-zigzag'loading="lazy" />
 
             <About2/>
         </div>

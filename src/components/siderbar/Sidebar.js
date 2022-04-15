@@ -12,7 +12,7 @@ function Sidebar() {
 
 
     return (
-        <><a href='#Top'>
+        <div className='siderbar-content'><a href='#Top'>
             <section className='logoStyle'>
                 <div style={{ margin: "auto" }}> M</div>
             </section></a>
@@ -36,7 +36,7 @@ function Sidebar() {
                 </a>
                 </div>
             </section>
-        </>
+        </div>
     )
 }
 

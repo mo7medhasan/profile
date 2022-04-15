@@ -160,7 +160,7 @@
   }
   .content-header {
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     top: 0;
     z-index: 1;

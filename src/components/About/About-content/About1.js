@@ -6,7 +6,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GoogleIcon from "@mui/icons-material/Google";
 import Grid from "@mui/material/Grid";
-import mo7medAbout from "../../../assets/mo7med about component.png";
+import mo7medAbout from "../../../assets/mo7med about component.webp";
 import "./style.css";
 
 export default function About1() {

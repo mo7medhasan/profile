@@ -5,9 +5,9 @@ var REQUIRED_FILES = [
   "/",
   "index.html",
   "M.png",
-  "../src/assets/mo7med about component.png",
+  "../src/assets/mo7med about component.webp",
   "../src/assets/mo7med.jpeg",
-  "../src/assets/mohamed person image png.png",
+  "../src/assets/mohamed person image png.webp",
   "../src/assets/line zigzag.png",
 ];
 const cacheName = "Mo7med";
@@ -15,9 +15,9 @@ const resourcesToPrecache = [
   "/",
   "index.html",
   "M.png",
-  "../src/assets/mo7med about component.png",
+  "../src/assets/mo7med about component.webp",
   "../src/assets/mo7med.jpeg",
-  "../src/assets/mohamed person image png.png",
+  "../src/assets/mohamed person image png.webp",
   "../src/assets/line zigzag.png",
 ];
 self.addEventListener("install", (event) => {

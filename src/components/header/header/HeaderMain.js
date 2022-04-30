@@ -3,7 +3,7 @@ import * as React from "react";
 import Grid from "@mui/material/Grid";
 
 import "./style.css";
-import mo7med from "../../../assets/mohamed person image png.png";
+import mo7med from "../../../assets/mohamed person image png.webp";
 
 export default function FullWidthGrid() {
   const OpenCV = () =>

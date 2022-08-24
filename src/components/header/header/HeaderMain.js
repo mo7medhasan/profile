@@ -3,7 +3,7 @@ import * as React from "react";
 import Grid from "@mui/material/Grid";
 
 import "./style.css";
-import mo7med from "../../../assets/mohamed person image png.webp";
+import mo7med from "https://amazon-apies.herokuapp.com/uploads/2022-08-24T10-52-41.292Z-mohasan2.jpg";
 
 export default function FullWidthGrid() {
   const OpenCV = () =>
@@ -62,7 +62,7 @@ export default function FullWidthGrid() {
         </Grid>
         <Grid item md={6} xs={12} className="img-profile">
           <div>
-            <img src={mo7med} alt={Alt} className="img-profile-content" loading="lazy" />
+            <img src={'https://amazon-apies.herokuapp.com/uploads/2022-08-24T10-52-41.292Z-mohasan2.jpg'} alt={Alt} className="img-profile-content" loading="lazy" />
           </div>
         </Grid>
       </Grid>

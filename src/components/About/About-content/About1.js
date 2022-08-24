@@ -6,7 +6,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GoogleIcon from "@mui/icons-material/Google";
 import Grid from "@mui/material/Grid";
-import mo7medAbout from "../../../assets/mo7med about component.webp";
+import mo7medAbout from "https://amazon-apies.herokuapp.com/uploads/2022-08-24T10-52-41.292Z-mohasan1.png";
 import "./style.css";
 
 export default function About1() {
@@ -19,7 +19,7 @@ export default function About1() {
             <div className="for-img-about">
               <div className="img-about">
                 <img
-                  src={mo7medAbout}
+                  src={'https://amazon-apies.herokuapp.com/uploads/2022-08-24T10-52-41.292Z-mohasan1.png'}
                   className="img-about-content"
                   alt={Alt}
                 />

@@ -3,6 +3,8 @@ import Main from "../components/main/Main";
 
 import Sidebar from "../components/siderbar/Sidebar";
 import "./style.css";
+import "./portfolio.scss";
+
 export default function Home() {
     const togglerMenu=()=>{
        document.querySelector('.toggler-menu>div').classList.toggle("active");

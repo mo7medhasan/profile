@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
-import hr from "../../assets/line zigzag.png";
+import hr from 'https://amazon-apies.herokuapp.com/uploads/2022-08-24T10-55-12.887Z-line zigzag.png'
+
 import {
   Grid, TextField,
   Button,
@@ -16,10 +17,10 @@ export default function Contact() {
   
   return (
     <div style={{ backgroundColor: "#F7F7FF" }} id="contact">
-   <img src={hr} alt="hr line zigzag png" className="img-hr-line-zigzag" loading="lazy"/>
-      <img src={hr} alt="hr line zigzag png" className="img-hr-line-zigzag" loading="lazy"/>
-      <img src={hr} alt="hr line zigzag png" className="img-hr-line-zigzag" loading="lazy"/>
-      <img src={hr} alt="hr line zigzag png" className="img-hr-line-zigzag" loading="lazy"/>
+   <img src={'https://amazon-apies.herokuapp.com/uploads/2022-08-24T10-55-12.887Z-line zigzag.png'} alt="hr line zigzag png" className="img-hr-line-zigzag" loading="lazy"/>
+      <img src={'https://amazon-apies.herokuapp.com/uploads/2022-08-24T10-55-12.887Z-line zigzag.png'} alt="hr line zigzag png" className="img-hr-line-zigzag" loading="lazy"/>
+      <img src={'https://amazon-apies.herokuapp.com/uploads/2022-08-24T10-55-12.887Z-line zigzag.png'} alt="hr line zigzag png" className="img-hr-line-zigzag" loading="lazy"/>
+      <img src={'https://amazon-apies.herokuapp.com/uploads/2022-08-24T10-55-12.887Z-line zigzag.png'} alt="hr line zigzag png" className="img-hr-line-zigzag" loading="lazy"/>
       <div className="container move">
         <Grid container spacing={4}>
           <Grid item container sx={12} md={5}>

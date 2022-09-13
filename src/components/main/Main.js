@@ -11,7 +11,7 @@ function Main() {
              <Header/>
              <About/>
              <Resume/>
-             <Portfolio/>
+             {/* <Portfolio/> */}
              <Contact/>
              <Footer/>
              

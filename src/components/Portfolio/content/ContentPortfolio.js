@@ -6,13 +6,45 @@ import ImageListItemBar from "@mui/material/ImageListItemBar";
 import { Grid } from "@mui/material";
 import IconButton from "@mui/material/IconButton";
 
-import ImgPortfolio1 from "https://amazon-apies.herokuapp.com/uploads/2022-08-24T11-26-59.044Z-tempela-html-css.png";
-import ImgPortfolio2 from "https://amazon-apies.herokuapp.com/uploads/2022-08-24T11-20-25.938Z-Amazon.png";
-import ImgPortfolio3 from "https://amazon-apies.herokuapp.com/uploads/2022-08-24T11-25-24.530Z-fast-ecommerce.png";
-import ImgPortfolio4 from "https://amazon-apies.herokuapp.com/uploads/2022-08-24T11-25-03.584Z-dashboard-amazon-netlify-app.png";
-import ImgPortfolio5 from "https://amazon-apies.herokuapp.com/uploads/2022-08-24T11-23-35.810Z-bootstrap.png";
-import ImgPortfolio6 from "https://amazon-apies.herokuapp.com/uploads/2022-08-24T11-23-26.286Z-amazon-apies-herokuapp.png";
+import ImgPortfolio1 from "src/assets/projects/tempela-html-css.png";
+import ImgPortfolio2 from "src/assets/projects/Amazon.png";
+import ImgPortfolio3 from "src/assets/projects/fast-ecommerce.png";
+import ImgPortfolio4 from "src/assets/projects/dashboard-amazon-netlify-app.png";
+import ImgPortfolio5 from "src/assets/projects/bootstrap.png";
+import ImgPortfolio6 from "src/assets/projects/amazon-apies-herokuapp.png";
 
+const itemData = [
+  {
+    img:ImgPortfolio1,
+    title: "html css",
+    url: "https://our-studio.herokuapp.com/",
+  },
+  {
+    img: ImgPortfolio2,
+    title: "Angular",
+    url: "https://amazon-2021.netlify.app/Home",
+  },
+  {
+    img: ImgPortfolio3,
+    title: "wordpress",
+    url: "https://dev-fast-ecommerce.pantheonsite.io/",
+  },
+  {
+    img: ImgPortfolio4,
+    title: "React js",
+    url: "https://dashboard-amazon.netlify.app/",
+  },
+  {
+    img: ImgPortfolio5,
+    title: "Bootstrap & cache",
+    url: "https://template-cv.netlify.app/",
+  },
+  {
+    img: ImgPortfolio6,
+    title: "node js API",
+    url: "http://amazon-apies.herokuapp.com/",
+  },
+];
 export default function ContentPortfolio() {
   return (
     <ImageList cols={1} gap={1}>
@@ -42,35 +74,3 @@ export default function ContentPortfolio() {
   );
 }
 
-const itemData = [
-  {
-    img: 'https://amazon-apies.herokuapp.com/uploads/2022-08-24T11-26-59.044Z-tempela-html-css.png',
-    title: "html css",
-    url: "https://our-studio.herokuapp.com/",
-  },
-  {
-    img: "https://amazon-apies.herokuapp.com/uploads/2022-08-24T11-20-25.938Z-Amazon.png",
-    title: "Angular",
-    url: "https://amazon-2021.netlify.app/Home",
-  },
-  {
-    img: 'https://amazon-apies.herokuapp.com/uploads/2022-08-24T11-25-24.530Z-fast-ecommerce.png',
-    title: "wordpress",
-    url: "https://dev-fast-ecommerce.pantheonsite.io/",
-  },
-  {
-    img: 'https://amazon-apies.herokuapp.com/uploads/2022-08-24T11-25-03.584Z-dashboard-amazon-netlify-app.png',
-    title: "React js",
-    url: "https://dashboard-amazon.netlify.app/",
-  },
-  {
-    img: 'https://amazon-apies.herokuapp.com/uploads/2022-08-24T11-23-35.810Z-bootstrap.png',
-    title: "Bootstrap & cache",
-    url: "https://template-cv.netlify.app/",
-  },
-  {
-    img: 'https://amazon-apies.herokuapp.com/uploads/2022-08-24T11-23-26.286Z-amazon-apies-herokuapp.png',
-    title: "node js API",
-    url: "http://amazon-apies.herokuapp.com/",
-  },
-];

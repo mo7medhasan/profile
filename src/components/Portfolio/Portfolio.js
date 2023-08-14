@@ -9,7 +9,7 @@ export default function Portfolio() {
       <div className="container">
         <div className="h1 fw-5 move">My Portfolio</div>
         <ContentPortfolio />
-        <Portfolios/>
+        {/* <Portfolios/> */}
       </div>
     </div>
   );

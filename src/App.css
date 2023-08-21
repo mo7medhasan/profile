@@ -40,7 +40,7 @@ h1,p,.move{
 }
 
 
-
+body{position: relative;}
 
 
 :host {

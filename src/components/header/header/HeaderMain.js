@@ -8,9 +8,9 @@ export default function FullWidthGrid() {
   const mo7med = require('src/assets/mohasan2.jpg');
   const OpenCV = () =>
     window.open(
-      "https://drive.google.com/file/d/1RupU7CmnkIqdJ9bEne1Xp1YOo0k0aF7c/view?usp=sharing"
+      "https://drive.google.com/file/d/1SIRgoIs3zyNrDJHzgaYT2kEmmLdpT5Hk/view?usp=sharing"
     );
-  const Alt = ";image to profile mo7med in header";
+  const Alt = "image to profile mo7med in header";
 
   return (
     <div>
@@ -51,11 +51,11 @@ export default function FullWidthGrid() {
                   specializing in creating stylish, modern websites, web
                   services and online stores.
                 </p>
-                <p className="btn-header ">
+                <div className="btn-header ">
                   <button className="btn" onClick={OpenCV}>
                     Download CV
                   </button>
-                </p>
+                </div>
               </div>
             </div>
           </div>

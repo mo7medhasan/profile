@@ -1,19 +1,22 @@
 .nav-down {
-  margin: 20px 0;
+  margin: 0;
   height: auto;
+  padding: 0px ;
 }
 
 .left-bg {
   text-align: left;
   display: flex;
 min-height: 100vh;
-justify-content: start;
-padding-top: 20%;
-  align-items: center !important;
+
+justify-content: center;
+padding-left: 5rem;
+margin: auto;
+  align-items: start ;
   flex-direction: column !important;
 }
 .p-header {
-  padding-left: 20%;
+  /* padding-left: 20%; */
   width: 100%;
 }
 
@@ -33,7 +36,7 @@ padding-top: 20%;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-padding-left: 40px;
+/* padding-left: 40px; */
   text-align: left;
   font-size: 3rem;
   font-weight: 600;
@@ -83,8 +86,8 @@ padding-left: 40px;
   column-count: 1;
 }
 .col-text {
-  flex-wrap: wrap;
-  width: 100% !important;
+  
+  width: 100% ;
 
   display: block;
 }
@@ -131,13 +134,20 @@ padding-left: 40px;
   justify-content: start;
 }
 .navbar {
-  position: absolute;
-  width: 80%;
-  top: 0;
-  font-size: small;
-  padding: 5px 10%;
+  position: fixed;
+  top:0px;
+  z-index: 100;
+  width: 100%;
+ margin:0px auto ;
+  font-size: medium;
+  font-weight: 600;
+  padding: 10px 0px;
   display: flex;
   justify-content: space-evenly;
+  background-color: #ff9301;
+  border: 0px;
+  color: #fff;
+  
 }
 
 .img-profile-content {
@@ -156,13 +166,16 @@ padding-left: 40px;
 
     width: 100%;
     overflow: hidden;
-  }
+  }.btn-header {
+
+    justify-content: center;}
   .left-bg {   display: flex;
     justify-content: start;
     align-items: center;
     position: absolute;
     top: 100px;
     height: 100vh;
+    padding-left: 0;
   }
   .content-header {
     display: flex;
@@ -176,22 +189,20 @@ padding-left: 40px;
     background: none;
     width: 100%;
     min-height: 100vh;
-  }
+  }.col-text{width: 80%;
+  margin: auto;
+text-align: center;}
   .img-profile-content {
     min-width: 450px;
 
-    min-height: 100vh;
-    width: 100vw;
+    /* min-height: 100vh; */
+    /* width: 100vw; */
   }
   .p-header {
     padding-left: 10%;
   }
 }
-@media only screen and (max-width: 750px) {
-  .navbar {
-    display: none;
-  }
-}
+
 .btn {
   background-color: #ff9301;
   padding: 15px 20px;
@@ -208,13 +219,19 @@ padding-left: 40px;
 .btn:hover {
   color: #ff7c01;
   background: none;
+ box-shadow: 0px 0px 10px 2px #ff7c01;
 }
 
 .btn:active {
   color: #a85f00;
   background: none;
+  box-shadow: 0px 0px 10px 2px #ff7c01;
 }
 
 .btn-header {
-  margin: 5%;
+  padding: 20px 0px;
+  display: flex;
+}
+.navbar-content a:hover{
+  color: #fff;
 }

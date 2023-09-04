@@ -26,11 +26,13 @@
   }
 }
 .mob-header {
+  bottom: 15px;
   display: none;
   position: fixed;
-  right: 20px;
-  bottom: 20px;
-  z-index: 11;
+  left: 7px;
+  z-index: 9999;
+ 
+ 
 }
 .toggler-menu {
     width: 60px;

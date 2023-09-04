@@ -69,24 +69,12 @@ margin: auto;
   animation: slide 10s steps(48) infinite;
   -webkit-animation: slide 10s steps(48) infinite;
 }
-/* 
-.left-bg .dynamic-txts li::after {
-  color: #ff9301;
-  content: " ";
-  position: absolute;
-  left: 0;
 
-  height: 100%;
-  width: 100%;
-  
-  animation: typing 4s steps(13) infinite;
-  -webkit-animation: typing 4s steps(13) infinite;
-} */
 .col {
   column-count: 1;
 }
 .col-text {
-  
+  max-width: 600px;
   width: 100% ;
 
   display: block;
@@ -199,10 +187,14 @@ text-align: center;}
     /* width: 100vw; */
   }
   .p-header {
-    padding-left: 10%;
+    padding-left: 0;
+  }.left-bg .block-txt ,.left-bg .dynamic-txts li{
+    text-align: center;
   }
 }
-
+.content-about {
+    padding: 20px;
+  }
 .btn {
   background-color: #ff9301;
   padding: 15px 20px;

@@ -25,7 +25,7 @@ export default function About1() {
                 />
               </div>
               <a
-                href="https://web.facebook.com/profile.php?id=100001450424106"
+                href="https://www.facebook.com/Mo7medHasan5"
                 className="icon-img-about-content"
               >
                 <FacebookOutlinedIcon fontSize="large" id="facebook" />
@@ -43,13 +43,13 @@ export default function About1() {
                 <TwitterIcon fontSize="large" id="twitter" />
               </a>
               <a
-                href="https://www.linkedin.com/in/mohamed-hassan-43a34417a"
+                href="https://www.linkedin.com/in/mo7medhasan/"
                 className="icon-img-about-content"
               >
                 <LinkedInIcon fontSize="large" id="linkedin" />
               </a>
               <a
-                href="https://mo7med.hasan5@gmail.com"
+                href="mailto:mo7med.hasan5@gmail.com"
                 className="icon-img-about-content"
               >
                 <GoogleIcon fontSize="large" id="google" />

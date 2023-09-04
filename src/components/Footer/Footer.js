@@ -22,7 +22,7 @@ export default function Footer() {
   alignItems="center" spacing={2} >
             <Grid item sx={2}>
               
-              <a href="https://web.facebook.com/profile.php?id=100001450424106">
+              <a href="https://www.facebook.com/Mo7medHasan5">
                 <FacebookOutlinedIcon className="Footer-Icons" />
               </a>
             </Grid>
@@ -33,7 +33,7 @@ export default function Footer() {
             </Grid>
             <Grid item sx={2}>
               {" "}
-              <a href="https://www.linkedin.com/in/mohamed-hassan-43a34417a">
+              <a href="https://www.linkedin.com/in/mo7medhasan/">
                 <LinkedInIcon className="Footer-Icons" />
               </a>
             </Grid>

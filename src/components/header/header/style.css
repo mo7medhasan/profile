@@ -3,7 +3,13 @@
   height: auto;
   padding: 0px ;
 }
-
+.block{  width: 100%;
+display: flex ;
+text-align: center;
+justify-content: center;
+}.pr-10{
+  padding-right: 10%;
+}
 .left-bg {
   text-align: left;
   display: flex;
@@ -131,10 +137,12 @@ margin: auto;
   font-weight: 600;
   padding: 10px 0px;
   display: flex;
+ flex-wrap: wrap ;
   justify-content: space-evenly;
   background-color: #ff9301;
   border: 0px;
   color: #fff;
+  gap:1rem;
   
 }
 

@@ -6,28 +6,28 @@ import ImageListItemBar from "@mui/material/ImageListItemBar";
 import { Grid } from "@mui/material";
 import IconButton from "@mui/material/IconButton";
 
-import ImgPortfolio1 from "src/assets/projects/tempela-html-css.png";
-import ImgPortfolio2 from "src/assets/projects/Amazon.png";
-import ImgPortfolio3 from "src/assets/projects/fast-ecommerce.png";
+import ImgPortfolio1 from "src/assets/projects/chat.gif";
+import ImgPortfolio2 from "src/assets/projects/mytreety.png";
+import ImgPortfolio3 from "src/assets/projects/timesofEgypt.png";
 import ImgPortfolio4 from "src/assets/projects/dashboard-amazon-netlify-app.png";
 import ImgPortfolio5 from "src/assets/projects/bootstrap.png";
-import ImgPortfolio6 from "src/assets/projects/amazon-apies-herokuapp.png";
+import ImgPortfolio6 from "src/assets/projects/signup.jpg";
 
 const itemData = [
   {
     img:ImgPortfolio1,
-    title: "html css",
-    url: "https://our-studio.herokuapp.com/",
+    title: "Next.js",
+    url: "https://mo-chat-with-anyone.vercel.app/",
   },
   {
     img: ImgPortfolio2,
-    title: "Angular",
-    url: "https://amazon-2021.netlify.app/Home",
+    title: "Next.js",
+    url: "https://mytreety.com",
   },
   {
     img: ImgPortfolio3,
     title: "wordpress",
-    url: "https://dev-fast-ecommerce.pantheonsite.io/",
+    url: "https://timesofegypt.com/",
   },
   {
     img: ImgPortfolio4,
@@ -41,8 +41,8 @@ const itemData = [
   },
   {
     img: ImgPortfolio6,
-    title: "node js API",
-    url: "http://amazon-apies.herokuapp.com/",
+    title: "React js",
+    url: "https://signup-morkotty.netlify.app/",
   },
 ];
 export default function ContentPortfolio() {
@@ -51,9 +51,10 @@ export default function ContentPortfolio() {
       <Grid container spacing={4}>
         {itemData.map((item) => (
           <Grid item container sx={12} sm={6} md={4} className="move" key={Math.random()}>
-            <a href={item.url} className="img-portfolio ">
+            <a href={item.url} className="img-portfolio  ">
               <ImageListItem key={item.img} className="">
-                <img src={item.img} alt={item.title} loading="lazy" />
+              <div className=" container-img">
+                <img src={item.img} alt={item.title} loading="lazy" width={400} height={250}  className="" /></div>
                 <ImageListItemBar
                   title={item.title}
                   actionIcon={

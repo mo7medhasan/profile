@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Bar() {
   const skills = [
-    { id: 1, Name: "Javascript", long: 90 },
-    { id: 2, Name: "React js", long: 85 },
-    { id: 3, Name: "Angular", long: 89 },
-    { id: 4, Name: "node js", long: 90 },
+    { id: 1, Name: "Javascript", long: 90 }, { id: 2, Name: "Next js", long: 95 },
+    { id: 3, Name: "React js", long: 90 },
+    { id: 4, Name: "Angular", long: 60 },
+    { id:5, Name: "node js", long: 65 },
   ]
   return (
     <div className="bar-list move">

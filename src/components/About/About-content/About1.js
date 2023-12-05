@@ -65,17 +65,12 @@ export default function About1() {
           <div className="right-about move">
             <div className="h1 fw-5">Biography</div>
             <article className="p-about-text">
-              I'm a Freelancer Front-end Developer with over 1 years of
+              I'm a Freelancer Front-end Developer with over 2 years of
               experience. I'm from Egypt. I code and create web elements for
               amazing people around the world. I like work with new people. New
               people new Experiences.
             </article>
-            <article className="p-about-text">
-              I'm a Freelancer Front-end Developer with over 1 years of
-              experience. I'm from Egypt. I code and create web elements for
-              amazing people around the world. I like work with new people. New
-              people new Experiences.
-            </article>
+           
             <article>
               <Grid container  spacing={2}>
                 <Grid item sx={12} md={5} className="list-about">
@@ -90,7 +85,7 @@ export default function About1() {
                     </li>
                     <li>
                       <span className="fw-span">Age</span>:{" "}
-                      <span>26 years </span>
+                      <span>28 years </span>
                     </li>
                     <li>
                       <span className="fw-span">Address</span>:{" "}

@@ -21,9 +21,7 @@ export default function BasicCard({ card }) {
 
                     />
                     <CardContent>
-                        <i>
-                        At the company's headquarters
-                        </i>
+                     
                         <p>
                             {card.time}</p>
                     </CardContent>

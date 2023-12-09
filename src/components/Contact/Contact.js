@@ -1,26 +1,40 @@
 import React from "react";
 import "./style.css";
-import hr from 'src/assets/line zigzag.png'
+import hr from "src/assets/line zigzag.png";
 
-import {
-  Grid, TextField,
-  Button,
-} from "@mui/material";
+import { Grid, TextField, Button } from "@mui/material";
 
-import MapOutlinedIcon from '@mui/icons-material/MapOutlined';
-import DraftsOutlinedIcon from '@mui/icons-material/DraftsOutlined';
-import PhoneIphoneOutlinedIcon from '@mui/icons-material/PhoneIphoneOutlined';
-
-
+import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
+import DraftsOutlinedIcon from "@mui/icons-material/DraftsOutlined";
+import PhoneIphoneOutlinedIcon from "@mui/icons-material/PhoneIphoneOutlined";
 
 export default function Contact() {
-  
   return (
     <div style={{ backgroundColor: "#F7F7FF" }} id="contact">
-   <img src={hr} alt="hr line zigzag png" className="img-hr-line-zigzag" loading="lazy"/>
-      <img src={hr} alt="hr line zigzag png" className="img-hr-line-zigzag" loading="lazy"/>
-      <img src={hr} alt="hr line zigzag png" className="img-hr-line-zigzag" loading="lazy"/>
-      <img src={hr} alt="hr line zigzag png" className="img-hr-line-zigzag" loading="lazy"/>
+      <img
+        src={hr}
+        alt="hr line zigzag png"
+        className="img-hr-line-zigzag"
+        loading="lazy"
+      />
+      <img
+        src={hr}
+        alt="hr line zigzag png"
+        className="img-hr-line-zigzag"
+        loading="lazy"
+      />
+      <img
+        src={hr}
+        alt="hr line zigzag png"
+        className="img-hr-line-zigzag"
+        loading="lazy"
+      />
+      <img
+        src={hr}
+        alt="hr line zigzag png"
+        className="img-hr-line-zigzag"
+        loading="lazy"
+      />
       <div className="container move">
         <Grid container spacing={4}>
           <Grid item container sx={12} md={5}>
@@ -32,31 +46,32 @@ export default function Contact() {
               </p>
               <ul>
                 <li className="media">
-               <MapOutlinedIcon fontSize="large" className="icon" />   
+                  <MapOutlinedIcon fontSize="large" className="icon" />
                   <span className="media-body">Qena || Nasr City , Egypt</span>
                 </li>
                 <li className="media">
-             <a href="mailto:mo7med.hasan5@gmail.com"> <DraftsOutlinedIcon className="icon" />
-                  <span className="media-body">
-                   
-                  
-                      mo7med.hasan5@gmail.com
-                    
-                  </span></a>
+                  <a href="mailto:mo7med.hasan5@gmail.com">
+                    {" "}
+                    <DraftsOutlinedIcon className="icon" />
+                    <span className="media-body">mo7med.hasan5@gmail.com</span>
+                  </a>
                 </li>
-                <li className="media">    <a href="tel:+201550003860">
-              <PhoneIphoneOutlinedIcon className="icon"/>
-                  <span className="media-body">
-                 +20 155 000 3860 
-                  </span></a>
+                <li className="media">
+                  {" "}
+                  <a href="tel:+201550003860">
+                    <PhoneIphoneOutlinedIcon className="icon" />
+                    <span className="media-body">+20 155 000 3860</span>
+                  </a>
                 </li>
               </ul>
             </div>
           </Grid>
           <Grid item container sx={12} md={7}>
-        
             <h3> Say Something </h3>
-            <form action="https://formsubmit.co/mo7med.hasan5@gmail.com" method="POST" >
+            <form
+              action="https://formsubmit.co/mo7med.hasan5@gmail.com"
+              method="POST"
+            >
               <Grid container spacing={1}>
                 <Grid xs={12} sm={6} item>
                   <TextField
@@ -96,7 +111,7 @@ export default function Contact() {
                   <TextField
                     className="textField"
                     type="number"
-                    name='phone'
+                    name="phone"
                     placeholder="Enter phone number"
                     label="Phone"
                     variant="outlined"
@@ -118,7 +133,7 @@ export default function Contact() {
                   />
                 </Grid>
                 <Grid item xs={12}>
-                  <Button type="submit" variant="contained" color="warning" >
+                  <Button type="submit" variant="contained" color="warning">
                     Send Message
                   </Button>
                 </Grid>

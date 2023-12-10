@@ -5,7 +5,7 @@ import Grid from "@mui/material/Grid";
 import "./style.css";
 
 export default function FullWidthGrid() {
-  const mo7med = require('src/assets/mohasan2.jpg');
+  const mo7med = require("src/assets/mohasan2.jpg");
   const OpenCV = () =>
     window.open(
       "https://drive.google.com/file/d/1SIRgoIs3zyNrDJHzgaYT2kEmmLdpT5Hk/view?usp=sharing"
@@ -62,7 +62,12 @@ export default function FullWidthGrid() {
         </Grid>
         <Grid item md={6} xs={12} className="img-profile">
           <div>
-            <img src={mo7med} alt={Alt} className="img-profile-content" loading="lazy" />
+            <img
+              src={mo7med}
+              alt={Alt}
+              className="img-profile-content"
+              loading="lazy"
+            />
           </div>
         </Grid>
       </Grid>
